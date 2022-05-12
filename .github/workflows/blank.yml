@@ -53,4 +53,4 @@ jobs:
     # The directory of static assets to upload
           directory: public
     # GitHub Token
-           gitHubToken: ${{ secrets.github_TOKEN }}
+          gitHubToken: ${{ secrets.github_TOKEN }}
