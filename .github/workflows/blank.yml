@@ -45,12 +45,12 @@ jobs:
         uses: cloudflare/pages-action@v1.0.0
         with:
     # Cloudflare API Token
-           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     # Cloudflare Account ID
-           accountId: ${{ secrets.CLOUDFLARE_USER_ID }}
+          accountId: ${{ secrets.CLOUDFLARE_USER_ID }}
     # The name of the Pages project to upload to
-           projectName: blog
+          projectName: blog
     # The directory of static assets to upload
-           directory: public
+          directory: public
     # GitHub Token
            gitHubToken: ${{ secrets.github_TOKEN }}
